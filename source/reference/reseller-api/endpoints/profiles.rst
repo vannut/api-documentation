@@ -41,9 +41,8 @@ parameters:
 
 Response
 --------
-.. warning:: Be aware that from September the ``category`` parameter will be deprecated and replaced by a new
-             business category parameter. We will continue to provide support for the ``category`` parameter
-             until 2022, but please revisit our documentation in September to learn how to update your API calls.
+.. warning:: Be aware that the ``category`` parameter is deprecated. We will, however, continue to provide support for the ``category`` parameter
+             until 2022.
 
 .. code-block:: none
    :linenos:
