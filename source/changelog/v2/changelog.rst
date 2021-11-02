@@ -3,6 +3,12 @@ Changelog
 Occasionally, we will add new resources, new fields, or new possible values to existing fields to the v2 Mollie API. All
 changes are documented here.
 
+November 2021
+=============
+Wednesday, 3th
+--------------
+- Added ``thegreatescapecentercadeaukaart`` and ``snowworldgiftcard`` as gift card issuers.
+
 October 2021
 ============
 Wednesday, 20th

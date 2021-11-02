@@ -8,6 +8,12 @@ changes are documented here.
 
              For more information on the v2 API, refer to our :doc:`v2 migration guide </payments/migrating-v1-to-v2>`.
 
+November 2021
+=============
+Wednesday, 3th
+--------------
+- Added ``thegreatescapecentercadeaukaart`` and ``snowworldgiftcard`` as gift card issuers.
+
 October 2021
 ============
 Friday, 8th

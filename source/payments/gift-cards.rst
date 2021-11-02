@@ -26,9 +26,11 @@ brands are supported:
 * `Podium Cadeaukaart <https://www.podiumcadeaukaart.nl/>`_
 * Reiscadeau
 * `RestaurantCadeau <https://www.horecasamensterk.nl/>`_
+* `SnowWorld Giftcard <https://www.snowworld.com/nl/giftcard/>`_
 * `Sodexo Sport & Culture Pass <https://sodexo4you.be/nl/producten/sport-culture-pass>`_
 * `Sport & Fit Cadeau <https://www.sportenfitcadeau.nl/>`_
 * `Sustainable Fashion Gift Card <https://sustainablefashiongiftcard.nl/>`_
+* `The Great Escape cadeaukaart <https://www.thegreatescape.info/cadeaubon//>`_
 * `Travelcheq <https://www.travelcheq.com/>`_
 * `VVV Cadeaukaart <https://www.vvvcadeaubonnen.nl/>`_
 * `VVV Dinercheque <https://www.vvvcadeaukaarten.nl/vvv-dinercheque>`_
