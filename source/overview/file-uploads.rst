@@ -9,14 +9,13 @@ Overview
 
 File uploads are handled the same way as browsers handle uploading files through forms, for example when using the
 ``<input type="file" />`` form element. The request body should be encoded using the ``multipart/form-data`` form
-encoding method. This allows both files and regular data to be sent in the same request.
+encoding method. This allows both files and regular data to be sent in fields in a single request.
 
 Each value is sent as a block of data ("body part"), with a user agent-defined delimiter ("boundary") separating each
-part. The keys are given in the ``Content-Disposition header of each part``. The file will be one of the blocks of data.
-Additionally, the other field you want to send will make up the other blocks of data.
+part. The field names are given in the ``Content-Disposition`` header of each part. The file will be one of the
+blocks of data. Additionally, the other fields you want to send will make up the other blocks of data.
 
-The API documentation will specify in which field the file have to go. The field name is assigned in
-the ``Content-Disposition`` header.
+The API documentation will specify in which field the file has to go.
 
 Example multipart HTTP request
 ------------------------------
