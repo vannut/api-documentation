@@ -58,18 +58,17 @@ want to split a payment with another party, we offer :doc:`Split payments </conn
 
 Technology Partner Program
 --------------------------
-
 If you are a SaaS platform, you can sign up for our Technology Partner Program to take advantage of exclusive resources,
-marketing, opportunities and dedicated partner support to help you grow your business. 
+marketing, opportunities, and dedicated partner support to help you grow your business. 
 
-Our tiered program grows alongside you, unlocking exclusive benefits as your payment volume increases, including the
+Our tiered program grows alongside you, unlocking exclusive benefits as your payment volume increases. This includes the
 opportunity to earn revenue share from your customers online payments. 
 
 Once you are accepted as a partner, and your account is configured as a partner account, any merchant you sign up
 through the OAuth onboarding flow will automatically be linked to your account.
 
 For more information about partnering with Mollie and how to join the program please see our `Technology Partner Program
-<https://www.mollie.com/en/partner-programmes/saas>`_ page reach out to your partner manager. 
+<https://www.mollie.com/en/partner-programmes/saas>`_ page, or reach out to your partner manager. 
 
-Partnerse note, Marketplaces are not eligible for the Technology Partner Program. 
+Marketplaces are not eligible for the Technology Partner Program. 
 
