@@ -56,11 +56,20 @@ fees, and receive a Mollie invoice. For this case we offer :doc:`Application fee
 For more advanced use cases, for example if you want to cover the Mollie payment fees yourself, or for example if you
 want to split a payment with another party, we offer :doc:`Split payments </connect/splitting-payments>`.
 
-Referral commissions
---------------------
-You can sign up for our referral program to receive commissions for merchants that you are onboarding to Mollie. Once
-your account is configured as a partner account, any merchant you sign up through the OAuth onboarding flow will
-automatically be linked to your account.
+Technology Partner Program
+--------------------------
 
-For more information about partnering with Mollie, please see our
-`Partner page <https://www.mollie.com/en/partners/>`_ or reach out to your Mollie partner manager.
+If you are a SaaS platform, you can sign up for our Technology Partner Program to take advantage of exclusive resources,
+marketing, opportunities and dedicated partner support to help you grow your business. 
+
+Our tiered program grows alongside you, unlocking exclusive benefits as your payment volume increases, including the
+opportunity to earn revenue share from your customers online payments. 
+
+Once you are accepted as a partner, and your account is configured as a partner account, any merchant you sign up
+through the OAuth onboarding flow will automatically be linked to your account.
+
+For more information about partnering with Mollie and how to join the program please see our `Technology Partner Program
+<https://www.mollie.com/en/partner-programmes/saas>`_ page reach out to your partner manager. 
+
+Partnerse note, Marketplaces are not eligible for the Technology Partner Program. 
+
