@@ -76,7 +76,6 @@ On our own account, we will receive the remainder of €2,50 minus any payment f
        "webhookUrl": "https://webshop.example.org/payments/webhook/",
        "routing": [
            {
-               "resource": "route",
                "id": "rt_k6cjd01h",
                "amount": {
                    "value": "2.50",
@@ -88,7 +87,6 @@ On our own account, we will receive the remainder of €2,50 minus any payment f
                }
            },
            {
-               "resource": "route",
                "id": "rt_9dk4al1n",
                "amount": {
                    "value": "3.50",
@@ -100,7 +98,6 @@ On our own account, we will receive the remainder of €2,50 minus any payment f
                }
            },
            {
-               "resource": "route",
                "id": "rt_ikw93sr2",
                "amount": {
                    "value": "4.00",
@@ -166,7 +163,6 @@ For example, the funds for the following payment will only become available on t
        "webhookUrl": "https://webshop.example.org/payments/webhook/",
        "routing": [
            {
-               "resource": "route",
                "id": "rt_k6cjd01h",
                "amount": {
                    "value": "2.50",
@@ -178,7 +174,6 @@ For example, the funds for the following payment will only become available on t
                }
            },
            {
-               "resource": "route",
                "id": "rt_9dk4al1n",
                "amount": {
                    "value": "3.50",
@@ -191,7 +186,6 @@ For example, the funds for the following payment will only become available on t
                "releaseDate": "2025-01-01"
            },
            {
-               "resource": "route",
                "id": "rt_ikw93sr2",
                "amount": {
                    "value": "4.00",
