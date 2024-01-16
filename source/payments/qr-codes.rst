@@ -72,8 +72,8 @@ Two options for implementation are available:
 Retrieving QR codes
 ^^^^^^^^^^^^^^^^^^^
 The QR code can be retrieved by adding the ``details.qrCode`` include to the payment creation API call, and a
-``method`` parameter (``ideal``, ``bancontact`` or ``banktransfer``) to the body of your request as detailed in the
-:doc:`Create payment </reference/v2/payments-api/create-payment>` reference.
+``method`` parameter (exactly one of ``ideal``, ``bancontact`` or ``banktransfer``) to the body of your request
+as detailed in the :doc:`Create payment </reference/v2/payments-api/create-payment>` reference.
 
 ``POST https://api.mollie.com/v2/payments?include=details.qrCode``
 
