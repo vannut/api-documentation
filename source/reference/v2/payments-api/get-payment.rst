@@ -303,6 +303,94 @@ Response
    The field expects a country code in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format,
    for example `NL`.
 
+.. parameter:: billingAddress
+   :type: address object
+
+   The person and the address for the payment.
+
+   Refer to the documentation of the :ref:`address object <address-object>` for more information on which formats are
+   accepted.
+
+   .. parameter:: organizationName
+      :type: string
+
+   .. parameter:: title
+      :type: string
+
+   .. parameter:: givenName
+      :type: string
+
+   .. parameter:: familyName
+      :type: string
+
+   .. parameter:: email
+      :type: string
+
+   .. parameter:: phone
+      :type: phone number
+
+   .. parameter:: streetAndNumber
+      :type: string
+
+   .. parameter:: streetAdditional
+      :type: string
+
+   .. parameter:: postalCode
+      :type: string
+
+   .. parameter:: city
+      :type: string
+
+   .. parameter:: region
+      :type: string
+
+   .. parameter:: country
+      :type: string
+
+.. parameter:: shippingAddress
+   :type: address object
+
+   The person and the address the order is shipped to.
+
+   Refer to the documentation of the :ref:`address object <address-object>` for more information on which formats are
+   accepted.
+
+   .. parameter:: organizationName
+      :type: string
+
+   .. parameter:: title
+      :type: string
+
+   .. parameter:: givenName
+      :type: string
+
+   .. parameter:: familyName
+      :type: string
+
+   .. parameter:: email
+      :type: string
+
+   .. parameter:: phone
+      :type: phone number
+
+   .. parameter:: streetAndNumber
+      :type: string
+
+   .. parameter:: streetAdditional
+      :type: string
+
+   .. parameter:: postalCode
+      :type: string
+
+   .. parameter:: city
+      :type: string
+
+   .. parameter:: region
+      :type: string
+
+   .. parameter:: country
+      :type: string
+
 .. parameter:: metadata
    :type: mixed
    :collapse: true

@@ -152,6 +152,155 @@ Parameters
    The field expects a country code in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format,
    for example `NL`.
 
+.. parameter:: billingAddress
+   :type: address object
+   :condition: optional
+
+   The billing details of the person. We advise to provide these details to improve fraud protection,
+   and conversion.
+
+   Refer to the documentation of the :ref:`address object <address-object>` for more information on which formats are
+   accepted.
+
+   .. parameter:: organizationName
+      :type: string
+      :condition: optional
+
+      The person's organization, if applicable.
+      This parameter is required when creating Billie orders.
+
+   .. parameter:: title
+      :type: string
+      :condition: optional
+
+      The title of the person, for example *Mr.* or *Mrs.*.
+
+   .. parameter:: givenName
+      :type: string
+      :condition: optional
+
+      The given name (first name) of the person.
+
+   .. parameter:: familyName
+      :type: string
+      :condition: optional
+
+      The family name (surname) of the person.
+
+   .. parameter:: email
+      :type: string
+      :condition: optional
+
+      The email address of the person.
+
+   .. parameter:: phone
+      :type: phone number
+      :condition: optional
+
+      The phone number of the person. Some payment methods require this information. If you have it, you should pass it
+      so that your customer does not have to enter it again in the checkout. Must be in the
+      `E.164 <https://en.wikipedia.org/wiki/E.164>`_ format. For example ``+31208202070``.
+
+   .. parameter:: streetAndNumber
+      :type: string
+      :condition: optional
+
+   .. parameter:: streetAdditional
+      :type: string
+      :condition: optional
+
+   .. parameter:: postalCode
+      :type: string
+      :condition: optional
+
+   .. parameter:: city
+      :type: string
+      :condition: optional
+
+   .. parameter:: region
+      :type: string
+      :condition: optional
+
+   .. parameter:: country
+      :type: string
+      :condition: optional
+
+      The country of the address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format.
+
+.. parameter:: shippingAddress
+   :type: address object
+   :condition: optional
+
+   The shipping details related to the payment. We advise to provide these details to improve fraud protection, and
+   improve conversion.
+
+   This field is optional, but if it is provided, then the full name and address have to be in a valid format. See the
+   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
+
+   .. parameter:: organizationName
+      :type: string
+      :condition: optional
+
+      The person's organization, if applicable.
+
+   .. parameter:: title
+      :type: string
+      :condition: optional
+
+      The title of the person, for example *Mr.* or *Mrs.*.
+
+   .. parameter:: givenName
+      :type: string
+      :condition: optional
+
+      The given name (first name) of the person.
+
+   .. parameter:: familyName
+      :type: string
+      :condition: optional
+
+      The family name (surname) of the person.
+
+   .. parameter:: email
+      :type: string
+      :condition: optional
+
+      The email address of the person.
+
+   .. parameter:: phone
+      :type: phone number
+      :condition: optional
+
+      The phone number of the person. Some payment methods require this information. If you have it, you should pass it
+      so that your customer does not have to enter it again in the checkout. Must be in the
+      `E.164 <https://en.wikipedia.org/wiki/E.164>`_ format. For example ``+31208202070``.
+
+   .. parameter:: streetAndNumber
+      :type: string
+      :condition: optional
+
+   .. parameter:: streetAdditional
+      :type: string
+      :condition: optional
+
+   .. parameter:: postalCode
+      :type: string
+      :condition: optional
+
+   .. parameter:: city
+      :type: string
+      :condition: optional
+
+   .. parameter:: region
+      :type: string
+      :condition: optional
+
+   .. parameter:: country
+      :type: string
+      :condition: optional
+
+      The country of the address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format.
+
 .. parameter:: metadata
    :type: mixed
    :condition: optional
@@ -292,94 +441,12 @@ Bank transfer
 
 Credit card
 """""""""""
-.. parameter:: billingAddress
-   :type: address object
-   :condition: optional
-
-   The card holder's address details. We advise to provide these details to improve the credit card fraud protection,
-   and thus improve conversion.
-
-   If an address is provided, then the address has to be in a valid format. See the
-   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
-
-   .. parameter:: streetAndNumber
-      :type: string
-      :condition: required
-
-      The card holder's street and street number.
-
-   .. parameter:: postalCode
-      :type: string
-      :condition: conditional
-
-      The card holder's postal code. This field is required if the provided ``country`` has a postal code system.
-
-   .. parameter:: city
-      :type: string
-      :condition: required
-
-      The card holder's city.
-
-   .. parameter:: region
-      :type: string
-      :condition: optional
-
-      The card holder's region.
-
-   .. parameter:: country
-      :type: string
-      :condition: required
-
-      The card holder's country in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format.
-
 .. parameter:: cardToken
    :type: string
    :condition: optional
 
    The card token you got from :doc:`Mollie Components </components/overview>`.  The token contains the card information
    (such as card holder, card number, and expiry date) needed to complete the payment.
-
-.. parameter:: shippingAddress
-   :type: address object
-   :condition: optional
-
-   The shipping address details. We advise to provide these details to improve the credit card fraud protection, and
-   thus improve conversion.
-
-   If an address is provided, then the address has to be in a valid format. See the
-   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
-
-   .. parameter:: streetAndNumber
-      :type: string
-      :condition: required
-
-      The street and street number of the shipping address.
-
-   .. parameter:: postalCode
-      :type: string
-      :condition: conditional
-
-      The postal code of the shipping address. This field is required if the provided ``country`` has a postal code
-      system.
-
-   .. parameter:: city
-      :type: string
-      :condition: required
-
-      The city of the shipping address.
-
-   .. parameter:: region
-      :type: string
-      :condition: optional
-
-      The region of the shipping address.
-
-   .. parameter:: country
-      :type: string
-      :condition: required
-
-      The country of the shipping address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_
-      format.
 
 Gift cards
 """"""""""
@@ -480,67 +547,6 @@ Billie
 .. note::
    Billie payments can only be created via the :doc:`Orders API </reference/v2/orders-api/create-order>`.
 
-.. parameter:: billingAddress
-   :type: address object
-   :condition: optional
-
-   Company address details. We advise to provide these details to improve the Billie's risk system.
-
-   If an address is provided, then the address has to be in a valid format. See the
-   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
-
-   .. parameter:: organizationName
-      :type: string
-      :condition: required
-
-      The organization's name. It is mandatory for Billie orders.
-
-   .. parameter:: givenName
-      :type: string
-      :condition: required
-
-      The given name (first name) of the buyer.
-
-   .. parameter:: familyName
-      :type: string
-      :condition: required
-
-      The family name (surname) of the buyer.
-
-   .. parameter:: email
-      :type: string
-      :condition: required
-
-      The contact email address of the organization.
-
-   .. parameter:: streetAndNumber
-      :type: string
-      :condition: required
-
-   .. parameter:: streetAdditional
-      :type: string
-      :condition: optional
-
-   .. parameter:: postalCode
-      :type: string
-      :condition: conditional
-
-      This field is required if the provided ``country`` has a postal code system.
-
-   .. parameter:: city
-      :type: string
-      :condition: required
-
-   .. parameter:: region
-      :type: string
-      :condition: optional
-
-   .. parameter:: country
-      :type: string
-      :condition: required
-
-      The country of the address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format.
-
 .. parameter:: company
    :type: object
    :condition: optional
@@ -585,64 +591,6 @@ PayPal
 
    This functionality is a 'best effort' feature based on a list of common keywords like 'order', 'payment', 'invoice',
    and common translations like 'Zahlung' and 'Pedido'.
-
-.. parameter:: shippingAddress
-   :type: address object
-   :condition: optional
-
-   The shipping address details. We advise to provide these details to improve PayPal's fraud protection, and thus
-   improve conversion.
-
-   If an address is provided, then the address has to be in a valid format. See the
-   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
-
-   .. parameter:: givenName
-      :type: string
-      :condition: required
-
-      The given name (first name) of the person. The maximum character length of ``givenName`` and ``familyName``
-      combined is 128.
-
-   .. parameter:: familyName
-      :type: string
-      :condition: required
-
-      The family name (surname) of the person. The maximum character length of ``givenName`` and ``familyName`` combined
-      is 128.
-
-   .. parameter:: streetAndNumber
-      :type: string
-      :condition: required
-
-      The street and street number of the shipping address. The maximum character length is 128.
-
-   .. parameter:: postalCode
-      :type: string
-      :condition: conditional
-
-      The postal code of the shipping address. This field is required if the provided ``country`` has a postal code
-      system. The maximum character length is 20.
-
-   .. parameter:: city
-      :type: string
-      :condition: required
-
-      The city of the shipping address. The maximum character length is 100.
-
-   .. parameter:: region
-      :type: string
-      :condition: optional
-
-      The region of the shipping address. The maximum character length is 100. **Note**: this field is required if
-      ``country`` is one of the following countries: ``AR`` ``BR`` ``CA`` ``CN`` ``ID`` ``IN`` ``JP`` ``MX`` ``TH``
-      ``US``
-
-   .. parameter:: country
-      :type: string
-      :condition: required
-
-      The country of the shipping address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_
-      format.
 
 .. parameter:: sessionId
    :type: string
