@@ -701,6 +701,8 @@ Bank transfer
    .. parameter:: billingEmail
       :type: string
 
+      .. warning:: This parameter is deprecated. Use the ``billingAddress.email`` parameter instead.
+
       Only available if filled out in the API or by the consumer – The email address which the consumer asked the
       payment instructions to be sent to.
 

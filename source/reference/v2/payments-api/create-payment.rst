@@ -414,6 +414,8 @@ Bank transfer
    :type: string
    :condition: optional
 
+   .. warning:: This parameter is deprecated. Use the ``billingAddress.email`` parameter instead.
+
    Consumer's email address, to automatically send the bank transfer details to. **Note:** the payment instructions will
    will be sent immediately when creating the payment. If you do not specify the ``locale`` parameter, the email will be
    sent in English, as we haven't yet been able to detect the consumer's browser language.
@@ -648,6 +650,8 @@ Przelewy24
 .. parameter:: billingEmail
    :type: string
    :condition: optional
+
+   .. warning:: This parameter is deprecated. Use the ``billingAddress.email`` parameter instead.
 
    Consumer's email address.
 
