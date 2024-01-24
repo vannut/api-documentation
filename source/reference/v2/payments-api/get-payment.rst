@@ -993,6 +993,8 @@ PayPal
       :type: address object
       :condition: optional
 
+      .. warning:: This parameter is deprecated. Use the ``shippingAddress`` parameter instead.
+
       The shipping address details.
 
       .. parameter:: streetAndNumber
