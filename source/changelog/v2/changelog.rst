@@ -8,7 +8,9 @@ changes are documented here.
 
 January 2024
 =============
-- Added support for the `description` and `countriesOfActivity` fields on the Profiles API
+- Added support for the `description` and `countriesOfActivity` fields on the Profiles API.
+- Added `billingAddress` and `shippingAddress` fields on the Payments API.
+- Deprecated `billingEmail` and `details.shippingAddress` fields on the Payments API.
 
 December 2023
 =============
