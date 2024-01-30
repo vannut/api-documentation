@@ -438,9 +438,9 @@ Parameters
    will only show the methods specified in the array. For example, you can use this functionality to only show payment
    methods from a specific country to your customer ``['bancontact', 'belfius']``.
 
-   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``billie`` ``creditcard`` ``directdebit`` ``eps``
+   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``billie`` ``blik`` ``creditcard`` ``directdebit`` ``eps``
    ``giftcard`` ``giropay`` ``ideal`` ``in3`` ``kbc`` ``klarna`` ``klarnapaylater`` ``klarnapaynow`` ``klarnasliceit`` ``mybank``
-   ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort`` ``voucher``
+   ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort`` ``twint`` ``voucher``
 
 .. parameter:: payment
    :type: object
