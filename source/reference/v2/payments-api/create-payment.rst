@@ -131,8 +131,8 @@ Parameters
    will only show the methods specified in the array. For example, you can use this functionality to only show payment
    methods from a specific country to your customer ``['bancontact', 'belfius']``.
 
-   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``creditcard`` ``directdebit`` ``eps``
-   ``giftcard`` ``giropay`` ``ideal`` ``kbc`` ``mybank``  ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort``
+   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``blik`` ``creditcard`` ``directdebit`` ``eps``
+   ``giftcard`` ``giropay`` ``ideal`` ``kbc`` ``mybank``  ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort`` ``twint``
 
    .. note:: If you are looking to create payments with the Klarna Pay now, Klarna Pay later, Klarna Slice it, in3 or
       voucher payment methods, use :doc:`/reference/v2/orders-api/create-order` instead.
