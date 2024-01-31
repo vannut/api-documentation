@@ -9,7 +9,6 @@ changes are documented here.
 January 2024
 =============
 - Added support for the `description` and `countriesOfActivity` fields on the Profiles API
-- Twint and Blik are generally available.
 
 December 2023
 =============
