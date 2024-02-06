@@ -17,6 +17,15 @@ API references, and your platform's operations to determine the necessary permis
 In most cases, ``organizations.read`` and ``onboarding.read`` are recommended for monitoring account status. Note that adding permissions at a later stage will require the merchant to 
 re-connect the app. For personalized advice, contact partners@mollie.com.
 
+You can configure co-branding of the onboarding interface in your Mollie account. Go to the Developers -> Your Apps and select your app of choice. You can customize the following elements:
+
+* Company Logo & Color, to ensure a consistent style across Mollie's onboarding steps.
+* Back URL, to seamlessly redirect users back to your platform upon completing the onboarding process.
+
+Leverage the preview functionality to visualize and ensure that the onboarding screens align with your expectations.
+
+.. image:: images/connect-cobranded-onboarding.png
+
 Step 2: Create an organization for your customer
 ------------------------------------------------
 
