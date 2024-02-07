@@ -37,6 +37,10 @@ $search-bar-radius: 4px;
   text-align: left;
 }
 
+.aa-DetachedSearchButtonPlaceholder[hidden] {
+  display: block;
+}
+
 @media (max-width: breakpoint('<medium-large')) {
   .aa-DetachedSearchButton {
     width: 120px;
