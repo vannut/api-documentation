@@ -36,7 +36,7 @@ How does the Orders API work?
 #. The :ref:`Create order endpoint response <create-order-response>` contains the ``_links.checkout`` property. This is
    a link where you should redirect your customer to for checking out.
 
-#. If the checkout is successful, the order will change it's state to ``authorized`` or ``paid``, depending on the
+#. If the checkout is successful, the order will change its state to ``authorized`` or ``paid``, depending on the
    payment method used by your customer.
 
    We will use webhooks to inform your back office of the order state change.
