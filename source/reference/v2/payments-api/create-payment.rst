@@ -105,53 +105,6 @@ Parameters
    `ngrok <https://lornajane.net/posts/2015/test-incoming-webhooks-locally-with-ngrok>`_ to have the webhooks delivered
    to your local machine.
 
-.. parameter:: locale
-   :type: string
-   :condition: optional
-
-   .. _parameters_locale:
-
-   Allows you to preset the language to be used in the hosted payment pages shown to the consumer. Setting a locale is
-   highly recommended and will greatly improve your conversion rate. When this parameter is omitted, the browser
-   language will be used instead if supported by the payment method. You can provide any ``xx_XX`` format ISO 15897
-   locale, but our hosted payment pages currently only support the following languages:
-
-   Possible values: ``en_US`` ``en_GB`` ``nl_NL`` ``nl_BE`` ``fr_FR`` ``fr_BE`` ``de_DE`` ``de_AT`` ``de_CH`` ``es_ES``
-   ``ca_ES`` ``pt_PT`` ``it_IT`` ``nb_NO`` ``sv_SE`` ``fi_FI`` ``da_DK`` ``is_IS`` ``hu_HU`` ``pl_PL`` ``lv_LV`` ``lt_LT``
-
-.. parameter:: method
-   :type: string|array
-   :condition: optional
-
-   Normally, a payment method screen is shown. However, when using this parameter, you can choose a specific payment
-   method and your customer will skip the selection screen and is sent directly to the chosen payment method. The
-   parameter enables you to fully integrate the payment method selection into your website.
-
-   You can also specify the methods in an array. By doing so we will still show the payment method selection screen but
-   will only show the methods specified in the array. For example, you can use this functionality to only show payment
-   methods from a specific country to your customer ``['bancontact', 'belfius']``.
-
-   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``creditcard`` ``directdebit`` ``eps``
-   ``giftcard`` ``giropay`` ``ideal`` ``kbc`` ``mybank``  ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort``
-
-   .. note:: If you are looking to create payments with the Klarna Pay now, Klarna Pay later, Klarna Slice it, in3 or
-      voucher payment methods, use :doc:`/reference/v2/orders-api/create-order` instead.
-
-.. parameter:: restrictPaymentMethodsToCountry
-   :type: string
-   :condition: optional
-   :collapse: true
-
-   For digital goods in most jurisdictions, you must apply the VAT rate from your customer's country. Choose the VAT
-   rates you have used for the order to ensure your customer's country matches the VAT country.
-
-   Use this parameter to restrict the payment methods available to your customer to those from a single country.
-
-   If available, the credit card method will still be offered, but only cards from the allowed country are accepted.
-
-   The field expects a country code in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format,
-   for example `NL`.
-
 .. parameter:: billingAddress
    :type: address object
    :condition: optional
@@ -234,9 +187,9 @@ Parameters
    The shipping details related to the payment. We advise to provide these details to improve fraud protection, and
    improve conversion.
 
-   This field is optional, but if it is provided, then the full name and address have to be in a valid format. See the
-   :ref:`address object <address-object>` documentation for more information on which formats are accepted.
-
+   Refer to the documentation of the :ref:`address object <address-object>` for more information on which formats are
+   accepted.
+   
    .. parameter:: organizationName
       :type: string
       :condition: optional
@@ -300,6 +253,53 @@ Parameters
       :condition: optional
 
       The country of the address in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format.
+
+.. parameter:: locale
+   :type: string
+   :condition: optional
+
+   .. _parameters_locale:
+
+   Allows you to preset the language to be used in the hosted payment pages shown to the consumer. Setting a locale is
+   highly recommended and will greatly improve your conversion rate. When this parameter is omitted, the browser
+   language will be used instead if supported by the payment method. You can provide any ``xx_XX`` format ISO 15897
+   locale, but our hosted payment pages currently only support the following languages:
+
+   Possible values: ``en_US`` ``en_GB`` ``nl_NL`` ``nl_BE`` ``fr_FR`` ``fr_BE`` ``de_DE`` ``de_AT`` ``de_CH`` ``es_ES``
+   ``ca_ES`` ``pt_PT`` ``it_IT`` ``nb_NO`` ``sv_SE`` ``fi_FI`` ``da_DK`` ``is_IS`` ``hu_HU`` ``pl_PL`` ``lv_LV`` ``lt_LT``
+
+.. parameter:: method
+   :type: string|array
+   :condition: optional
+
+   Normally, a payment method screen is shown. However, when using this parameter, you can choose a specific payment
+   method and your customer will skip the selection screen and is sent directly to the chosen payment method. The
+   parameter enables you to fully integrate the payment method selection into your website.
+
+   You can also specify the methods in an array. By doing so we will still show the payment method selection screen but
+   will only show the methods specified in the array. For example, you can use this functionality to only show payment
+   methods from a specific country to your customer ``['bancontact', 'belfius']``.
+
+   Possible values: ``applepay`` ``bancontact`` ``banktransfer`` ``belfius`` ``creditcard`` ``directdebit`` ``eps``
+   ``giftcard`` ``giropay`` ``ideal`` ``kbc`` ``mybank``  ``paypal`` ``paysafecard`` ``przelewy24`` ``sofort``
+
+   .. note:: If you are looking to create payments with the Klarna Pay now, Klarna Pay later, Klarna Slice it, in3 or
+      voucher payment methods, use :doc:`/reference/v2/orders-api/create-order` instead.
+
+.. parameter:: restrictPaymentMethodsToCountry
+   :type: string
+   :condition: optional
+   :collapse: true
+
+   For digital goods in most jurisdictions, you must apply the VAT rate from your customer's country. Choose the VAT
+   rates you have used for the order to ensure your customer's country matches the VAT country.
+
+   Use this parameter to restrict the payment methods available to your customer to those from a single country.
+
+   If available, the credit card method will still be offered, but only cards from the allowed country are accepted.
+
+   The field expects a country code in `ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ format,
+   for example `NL`.
 
 .. parameter:: metadata
    :type: mixed
