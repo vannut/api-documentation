@@ -6,11 +6,14 @@ Changelog
 Occasionally, we will add new resources, new fields, or new possible values to existing fields to the v2 Mollie API. All
 changes are documented here.
 
-January 2024
+February 2024
 =============
-- Added support for the `description` and `countriesOfActivity` fields on the Profiles API.
 - Added `billingAddress` and `shippingAddress` fields on the Payments API.
 - Deprecated `billingEmail` and `details.shippingAddress` fields on the Payments API.
+
+January 2024
+============
+- Added support for the `description` and `countriesOfActivity` fields on the Profiles API.
 
 December 2023
 =============
