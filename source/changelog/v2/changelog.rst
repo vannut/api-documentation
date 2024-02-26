@@ -6,8 +6,8 @@ Changelog
 Occasionally, we will add new resources, new fields, or new possible values to existing fields to the v2 Mollie API. All
 changes are documented here.
 
-February 2024
-=============
+March 2024
+==========
 - Added `billingAddress` and `shippingAddress` fields on the Payments API.
 - Deprecated `billingEmail` and `details.shippingAddress` fields on the Payments API.
 
