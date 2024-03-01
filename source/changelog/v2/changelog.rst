@@ -6,6 +6,10 @@ Changelog
 Occasionally, we will add new resources, new fields, or new possible values to existing fields to the v2 Mollie API. All
 changes are documented here.
 
+March 2024
+==========
+- Added support for `sort` parameter on the List Payments endpoint.
+
 January 2024
 =============
 - Added support for the `description` and `countriesOfActivity` fields on the Profiles API

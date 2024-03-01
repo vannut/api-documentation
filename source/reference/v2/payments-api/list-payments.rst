@@ -31,6 +31,13 @@ Parameters
 
    The number of payments to return (with a maximum of 250).
 
+.. parameter:: sort
+   :type: string
+   :condition: optional
+
+   Used for setting the direction of the results based on the cursor. Can be set to ``desc`` for older or ``asc`` 
+   for newer payments.
+
 Access token parameters
 ^^^^^^^^^^^^^^^^^^^^^^^
 If you are using :doc:`organization access tokens </overview/authentication>` or are creating an
