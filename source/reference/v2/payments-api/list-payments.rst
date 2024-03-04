@@ -30,6 +30,7 @@ Parameters
    :condition: optional
 
    Used for setting the direction of the results based on the ``from`` parameter. Can be set to ``desc`` or ``asc``.
+   Default is `desc`.
 
 .. parameter:: limit
    :type: integer
