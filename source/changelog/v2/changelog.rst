@@ -8,7 +8,7 @@ changes are documented here.
 
 March 2024
 ==========
-- Added support for `sort` parameter on the List Payments endpoint.
+- Added support for `sort` parameter on the List Payments and List Orders endpoints.
 
 January 2024
 =============
