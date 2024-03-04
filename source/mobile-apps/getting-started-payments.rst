@@ -8,7 +8,7 @@ show you a basic example of integrating Mollie Payments in your iOS or Android a
 
 Keep the guidelines of the platform you are developing on in mind
 -----------------------------------------------------------------
-Every platform has it's own guidelines for accepting of rejecting apps in the App Store or Marketplace. See
+Every platform has its own guidelines for accepting or rejecting apps in the App Store or Marketplace. See
 :ref:`app-store-r-r` for an in depth review.
 
 Step 1: Create a Payment-creation script on your server

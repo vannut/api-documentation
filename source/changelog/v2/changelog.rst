@@ -10,6 +10,7 @@ March 2024
 ==========
 - Added `billingAddress` and `shippingAddress` fields on the Payments API.
 - Deprecated `billingEmail` and `details.shippingAddress` fields on the Payments API.
+- Added support for `sort` parameter on the List Payments and List Orders endpoints.
 
 January 2024
 ============

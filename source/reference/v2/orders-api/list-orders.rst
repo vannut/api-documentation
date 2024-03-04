@@ -25,6 +25,13 @@ Parameters
    Used for :ref:`pagination <pagination-in-v2>`. Offset the result set to the order with this ID. The order with this
    ID is included in the result set as well.
 
+.. parameter:: sort
+   :type: string
+   :condition: optional
+
+   Used for setting the direction of the results based on the ``from`` parameter. Can be set to ``desc`` or ``asc``.
+   Default is `desc`.
+
 .. parameter:: limit
    :type: integer
    :condition: optional

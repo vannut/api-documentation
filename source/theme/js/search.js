@@ -2,7 +2,7 @@ import { enhance } from './utils';
 import algoliasearch from 'algoliasearch/lite';
 import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js';
 
-const searchClient = algoliasearch('YRKIIH6LPA', '468c23035b867bacfdc2f454d7a912a9');
+const searchClient = algoliasearch('YIM0JABEYY', 'c0c20693e89884beb5e1dc1958e8ed06');
 
 export default enhance('algolia-search', (element) => {
   autocomplete({
