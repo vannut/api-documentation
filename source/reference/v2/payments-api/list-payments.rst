@@ -25,18 +25,17 @@ Parameters
    Used for :ref:`pagination <pagination-in-v2>`. Offset the result set to the payment with this ID. The payment with
    this ID is included in the result set as well.
 
+.. parameter:: sort
+   :type: string
+   :condition: optional
+
+   Used for setting the direction of the results based on the ``from`` parameter. Can be set to ``desc`` or ``asc``.
+
 .. parameter:: limit
    :type: integer
    :condition: optional
 
    The number of payments to return (with a maximum of 250).
-
-.. parameter:: sort
-   :type: string
-   :condition: optional
-
-   Used for setting the direction of the results based on the cursor. Can be set to ``desc`` for older or ``asc`` 
-   for newer payments.
 
 Access token parameters
 ^^^^^^^^^^^^^^^^^^^^^^^
