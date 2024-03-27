@@ -56,7 +56,7 @@ methods:
 * `Klarna Pay later <https://www.mollie.com/payments/klarna-pay-later>`_
 * `Klarna Slice it <https://www.mollie.com/payments/klarna-slice-it>`_
 * `Meal vouchers, eco vouchers, and various other gift vouchers
-  <https://www.mollie.com/payments/meal-eco-gift-vouchers>`_ (Appetiz, Cadeau Pass, Chèque Déjeuner, Eco Pass, Lunch
+  <https://www.mollie.com/payments/meal-eco-gift-vouchers>`_ (Appetiz, Cadeau Pass, Chèque Déjeuner, Eco Pass, Edenred, Lunch
   Pass, Monizze, PassRestaurant, Swile, etc.)
 * `PayPal <https://www.mollie.com/payments/paypal>`_
 * `paysafecard <https://www.mollie.com/payments/paysafecard>`_
