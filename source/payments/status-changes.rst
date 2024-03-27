@@ -77,6 +77,7 @@ Expiry times per payment method
 | - Giropay                     |                                   |
 +-------------------------------+-----------------------------------+
 | - MyBank                      | 45 minutes                        |
+| - Twint                       |                                   |
 +-------------------------------+-----------------------------------+
 | - Bancontact                  | 1 hour                            |
 | - Belfius Pay Button          |                                   |

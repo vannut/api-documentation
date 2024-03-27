@@ -63,3 +63,4 @@ methods:
 * `Przelewy24 <https://www.mollie.com/payments/przelewy24>`_
 * `SEPA Direct Debit <https://www.mollie.com/payments/direct-debit>`_
 * `SOFORT Banking <https://www.mollie.com/payments/sofort>`_
+* `Twint <https://www.mollie.com/payments/twint>`
