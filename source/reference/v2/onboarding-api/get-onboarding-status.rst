@@ -45,6 +45,7 @@ Response
    * ``needs-data`` The onboarding is not completed and the merchant needs to provide (more) information
    * ``in-review`` The merchant provided all information and Mollie needs to check this
    * ``completed`` The onboarding is completed
+   * ``account-closed`` The account of the merchant is closed
 
 .. parameter:: canReceivePayments
    :type: boolean
