@@ -2,21 +2,21 @@ Mollie Connect
 ==============
 **Mollie Connect** provides an optimal solution for setting up payments for platforms and marketplaces. The Connect product serves various purposes, including:
 
-* Allowing your App to manage your customer’s accounts and access their data. 
+* Allowing your App to manage your customer’s accounts and access their data.
 * Automating and co-branding the :doc:`Mollie onboarding process <onboarding>` for your customers.
 * Enabling your app to create payments, orders, and refunds on behalf of your customer.
 * Monetizing payments by adding a surcharge or receiving a commission.
 
-All these use cases are facilitated through the use of OAuth. If you are unfamiliar with OAuth, it is an open standard supported 
-by our API that allows your app to access data from a connected account with the user's consent. This eliminates the need 
-for manual exchange of API keys. For example, you can utilize OAuth to call the Balances API on behalf of your user to retrieve 
+All these use cases are facilitated through the use of OAuth. If you are unfamiliar with OAuth, it is an open standard supported
+by our API that allows your app to access data from a connected account with the user's consent. This eliminates the need
+for manual exchange of API keys. For example, you can utilize OAuth to call the Balances API on behalf of your user to retrieve
 their open balance in real-time.
 
 Getting started
 ---------------
 Regardless of the use case, it is essential to start by understanding how OAuth functions at Mollie and then registering an OAuth app.
 
-OAuth is an open standard for access delegation, a prerequisite to benefit from the Mollie Connect product offering. For detailed 
+OAuth is an open standard for access delegation, a prerequisite to benefit from the Mollie Connect product offering. For detailed
 information on creating your OAuth app, refer to the :doc:`Getting started with Mollie Connect </connect/getting-started>` guide.
 
 Onboarding your customers
@@ -52,4 +52,4 @@ your account is configured as a partner account, any merchant you sign up throug
 automatically be linked to your account.
 
 For more information about partnering with Mollie, see our
-`Partner page <https://www.mollie.com/partners>`_ or reach out to your Mollie partner manager.
+`Partner page <https://www.mollie.com/partner-program/saas-ecommerce>`_ or reach out to your Mollie partner manager.
