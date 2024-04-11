@@ -4,7 +4,7 @@ The Clients API is part of our partnerships toolkit. If you are a registered Mol
 to create new organizations for your customers, or retrieve a list of Mollie organizations connected to your partner
 account.
 
-For more information on our partnership program, visit `mollie.com/partners <https://www.mollie.com/nl/partner-program/saas-ecommerce#form>`_.
+For more information on our partnership program, visit `mollie.com/partners <https://www.mollie.com/partner-program/saas-ecommerce#form>`_.
 
 Endpoints
 ---------
