@@ -45,6 +45,7 @@ The :doc:`Payments API </reference/v2/payments-api/create-payment>` calls a webh
 following statuses:
 
 * ``paid``
+* ``authorized``
 * ``expired``
 * ``failed``
 * ``canceled``
