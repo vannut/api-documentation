@@ -1,7 +1,6 @@
 Place a hold for a payment
 ==========================
 .. customize-document-title::
-   :beta: true
 
 When you create a Mollie payment, your consumer authorizes the payment with the payment method and we automatically
 collect the funds for you.
