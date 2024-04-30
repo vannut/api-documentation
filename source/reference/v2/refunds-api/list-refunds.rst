@@ -126,7 +126,7 @@ Example
       <?php
       $mollie = new \Mollie\Api\MollieApiClient();
       $mollie->setApiKey("test_dHar4XY7LxsDOtmnkVtjNVWXLSlXsM");
-      $refunds = $mollie->refunds();
+      $refunds = $mollie->refunds->page();
 
    .. code-block:: python
       :linenos:
