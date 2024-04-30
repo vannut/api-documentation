@@ -13,6 +13,7 @@ April 2024
 March 2024
 ==========
 - Added support for `sort` parameter on the List Payments and List Orders endpoints.
+- Edenred vouchers and Twint are generally available.
 
 January 2024
 =============
