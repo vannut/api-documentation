@@ -12,10 +12,10 @@ Next to the API endpoint, you can also `create refunds manually
 <https://help.mollie.com/hc/en-us/articles/115000014489-How-do-I-refund-a-payment-to-one-of-my-consumers->`_ via the
 Mollie Dashboard.
 
-Most payment methods support refunds. Refunds are not available for some payment methods, however, such as paysafecard
+Most payment methods support refunds. Refunds are not available for some payment methods like paysafecard
 and gift cards.
 
-Refunds support descriptions. We will show the given description in your Mollie Dashboard and in your exports, and we
+Refunds support descriptions. We will show the given description in your Mollie Dashboard, in your exports, and we
 will pass it along to your customer's bank or card issuer if possible.
 
 .. _refund-statuses:
